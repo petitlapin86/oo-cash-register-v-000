@@ -1,6 +1,6 @@
 
 class CashRegister #creating my new class
-attr_accessor :items, :discount, :total, :title, :price
+attr_accessor :items, :discount, :total, :last_transaction 
 
 def initialize(discount=0) # optionally takes a employee discount on initialization
   @total = 0 #setting an instance variable total to zero
