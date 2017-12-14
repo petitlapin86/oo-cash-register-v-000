@@ -19,7 +19,7 @@ def add_item(title, price, quantity=1) #accepts a title, price and optional quan
    def apply_discount
      if discount != 0 #if the discount is not 0
        self.total = (total * ((100.0 - discount.to_f)/100)).to_i # then apply discount to the total price
-    "After the discount, the total comes to $ #{total}."# returns success message with updated total
+    "After the discount, the total comes to $ #{self.total}."# returns success message with updated total
   else
      "There is no discount to apply." #if the discount was 0 then puts this message
    end
