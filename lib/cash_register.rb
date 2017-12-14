@@ -12,7 +12,7 @@ def add_item(title, price, quantity=1) #accepts a title, price and optional quan
      quantity.times do
        items << title #pushes item title to array of items
      end
-     self.last_transaction = amount * quantity #doesnt forget previous total 
+     self.last_transaction = amount * quantity #doesnt forget previous total
    end
 
 
