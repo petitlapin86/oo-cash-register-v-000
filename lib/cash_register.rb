@@ -17,7 +17,7 @@ def add_item(title, price, quantity=1) #accepts a title, price and optional quan
    end
 
    def apply_discount
-    # applies the discount to the total price
+    total + discount  # applies the discount to the total price
     "After the discount, the total comes to $ #{total}."# returns success message with updated total
     # reduces the total
    end
