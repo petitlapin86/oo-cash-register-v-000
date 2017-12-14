@@ -25,8 +25,8 @@ def add_item(title, price, quantity=1) #accepts a title, price and optional quan
    end
  end
 
-def void_last_transaction 
+def void_last_transaction
   self.total = self.total - self.last_transaction #subtracts the last transaction from the total
-end 
+end
 
 end
