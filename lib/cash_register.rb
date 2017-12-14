@@ -23,7 +23,7 @@ def add_item(title, price, quantity=1) #accepts a title, price and optional quan
   else
      "There is no discount to apply." #if the discount was 0 then puts this message
    end
- end 
+ end
 
 
 end
