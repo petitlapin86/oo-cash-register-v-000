@@ -16,5 +16,11 @@ def add_item(title, price, quantity=1) #accepts a title, price and optional quan
      self.last_transaction = price * quantity #doesnt forget previous total
    end
 
+   def apply_discount
+    # applies the discount to the total price
+    # returns success message with updated total
+    # reduces the total
+   end 
+
 
 end
