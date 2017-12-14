@@ -2,7 +2,7 @@
 class CashRegister #creating my new class
 
 def initialize
-  @total = zero
-end 
+  @total = 0
+end
 
 end
